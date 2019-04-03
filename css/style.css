@@ -1,0 +1,165 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #323232;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin: 50 auto 0 auto;  
+    font-size: 4rem; 
+    color: #dbe2ef;
+    font-family: 'indie flower', cursive;
+
+}
+h2{
+    color: #3f72af;
+    font-family: 'indie flower', cursive;
+    font-size: 3rem;
+}
+
+h3{    
+    color: #112d4e;
+    font-weight: bold;
+}
+
+
+P {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'indie flower', cursive;
+    line-height: 2;
+}
+
+.bio-text{
+    margin: auto;
+    width: 30%;
+}
+
+.end-text {
+    margin: auto auto 30px auto;
+    width: 30%;
+}
+
+hr {
+    width: 15%;
+    height: 0px;
+    border-color: grey;
+    border-style: dotted none none;
+    border-width: 5px;
+    margin: 50px auto 50px auto;
+}
+
+.top-container {
+    background-color: #3f72af;
+    position: relative;
+    padding-top:100px;
+}
+
+.middle-container {
+    background-color: #dbe2ef;
+}
+
+.bottom-container {
+    background-color: #3f72af;
+
+}
+
+.computer-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: right;
+}
+
+.profile-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.computer-img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.skill-img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    bottom: 200px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 150px;
+}
+
+.button {
+    background-color: #3f72af;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    font-weight: bold;
+	padding:10px 12px;
+	text-decoration:none;
+    margin-bottom: 25px;
+}
+.button:hover {
+	background-color:#3f72af;
+}
+.button:active {
+	position:relative;
+	top:0;
+}
+
+.fa {
+    padding-top: 10px;
+    font-size: 1000px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+a:link, a:visited {
+    color: #dbe2ef;
+}
+a:hover::before {
+    transform: rotate(360deg);
+}
+  
+a:before {
+    display: inline-block;
+    transition: .5s all;
+}
+
+.final-text{
+    color: #dbe2ef;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 0;
+}
